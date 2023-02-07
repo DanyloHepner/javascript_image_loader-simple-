@@ -10,7 +10,7 @@ const FileBoxChangeHandler = () => {
         alert("Only image file can be accepted, re-try please.");
         return ;
     }
-    fileReader.readAsDataURL(file_box.files[0]);
+    fileReader.readAsDataURL(document.getElementById("file-box").files[0]);
     fileReader.onloadend = () => {
         document.getElementById("img-display-section").src = fileReader.result;
     };
