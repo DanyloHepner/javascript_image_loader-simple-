@@ -1,0 +1,14 @@
+input#file-box {
+    display: none;
+}
+
+div.preview {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+img#img-display-section {
+    width: 100%;
+    height: 100%;
+}

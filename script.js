@@ -1,6 +1,6 @@
 //Fires when user pushes button
 const SelectButtonClickHandler = () => {
-    file_box.click();
+    document.getElementById("file-box").click();
 }
 
 //Fires when selected file
@@ -12,6 +12,6 @@ const FileBoxChangeHandler = () => {
     }
     fileReader.readAsDataURL(file_box.files[0]);
     fileReader.onloadend = () => {
-        img_display_section.src = fileReader.result;
+        document.getElementById("img-display-section").src = fileReader.result;
     };
 }

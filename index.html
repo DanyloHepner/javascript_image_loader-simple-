@@ -5,13 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Image Previewer</title>
+    <link href="./style.css" rel="stylesheet" />
 </head>
 <body>
-    <button type = "button" onclick = "SelectButtonClickHandler()">Select Image</button>
-    <input type = "file" id = "file_box" onchange = "FileBoxChangeHandler()" />
-    <div class = "preview">
-        <img src = "" alt = "Select picture to preview, please" id = "img_display_section" />
+    <!-- This is a button to CLICK file input element.-->
+    <button type="button" onclick="SelectButtonClickHandler()">Select Image</button>
+    <!-- This is the element which really selects image.-->
+    <input type="file" id = "file-box" onchange = "FileBoxChangeHandler()" />
+    <!-- This is for showing preview.-->
+    <div class="preview">
+        <img 
+            src="" 
+            alt="Select picture to preview, please" 
+            id="img-display-section" 
+            style="width:128px;height:128px"
+        />
     </div>
-    <script src = "./script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
