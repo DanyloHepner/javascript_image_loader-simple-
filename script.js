@@ -6,7 +6,7 @@ const SelectButtonClickHandler = () => {
 //Fires when selected file
 const FileBoxChangeHandler = () => {
     const fileReader = new FileReader();
-    if(file_box.files[0].type.indexOf("image") == -1) {
+    if(document.getElementById("file-box").files[0].type.indexOf("image") == -1) {
         alert("Only image file can be accepted, re-try please.");
         return ;
     }
