@@ -7,6 +7,11 @@
     <title>JavaScript Image Previewer</title>
 </head>
 <body>
-    
+    <button type = "button" onclick = "SelectButtonClickHandler()">Select Image</button>
+    <input type = "file" id = "file_box" onchange = "FileBoxChangeHandler()" />
+    <div class = "preview">
+        <img src = "" alt = "Select picture to preview, please" id = "img_display_section" />
+    </div>
+    <script src = "./script.js"></script>
 </body>
 </html>
