@@ -1,0 +1,23 @@
+{
+  "name": "javascript_image_loader-simple-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanyloHepner/javascript_image_loader-simple-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanyloHepner/javascript_image_loader-simple-/issues"
+  },
+  "homepage": "https://github.com/DanyloHepner/javascript_image_loader-simple-#readme",
+  "dependencies": {
+    "eslint": "^8.33.0"
+  }
+}

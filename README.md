@@ -1,2 +1,4 @@
-All right hello guys.
-I made this to show the way of using FileReader object Javascript supports.
+# Javascript Image Previewer
+
+This sample is to show how to use FileReader object in Javascript so that we can see what picture we selected.
+
